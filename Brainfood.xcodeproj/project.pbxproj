@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A2655381E3F018E00F8DDDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2655371E3F018E00F8DDDF /* AppDelegate.swift */; };
+		2A26553A1E3F018E00F8DDDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2655391E3F018E00F8DDDF /* ViewController.swift */; };
+		2A26553D1E3F018E00F8DDDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A26553B1E3F018E00F8DDDF /* Main.storyboard */; };
+		2A26553F1E3F018E00F8DDDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A26553E1E3F018E00F8DDDF /* Assets.xcassets */; };
+		2A2655421E3F018E00F8DDDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2655401E3F018E00F8DDDF /* LaunchScreen.storyboard */; };
+		2A26554D1E3F018E00F8DDDF /* BrainfoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A26554C1E3F018E00F8DDDF /* BrainfoodTests.swift */; };
+		2A2655581E3F018E00F8DDDF /* BrainfoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2655571E3F018E00F8DDDF /* BrainfoodUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A2655491E3F018E00F8DDDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A26552C1E3F018D00F8DDDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A2655331E3F018D00F8DDDF;
+			remoteInfo = Brainfood;
+		};
+		2A2655541E3F018E00F8DDDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A26552C1E3F018D00F8DDDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A2655331E3F018D00F8DDDF;
+			remoteInfo = Brainfood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A2655341E3F018E00F8DDDF /* Brainfood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brainfood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2655371E3F018E00F8DDDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A2655391E3F018E00F8DDDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A26553C1E3F018E00F8DDDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A26553E1E3F018E00F8DDDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A2655411E3F018E00F8DDDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A2655431E3F018E00F8DDDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A2655481E3F018E00F8DDDF /* BrainfoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrainfoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A26554C1E3F018E00F8DDDF /* BrainfoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainfoodTests.swift; sourceTree = "<group>"; };
+		2A26554E1E3F018E00F8DDDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A2655531E3F018E00F8DDDF /* BrainfoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrainfoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2655571E3F018E00F8DDDF /* BrainfoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainfoodUITests.swift; sourceTree = "<group>"; };
+		2A2655591E3F018E00F8DDDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A2655311E3F018D00F8DDDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2655451E3F018E00F8DDDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2655501E3F018E00F8DDDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A26552B1E3F018D00F8DDDF = {
+			isa = PBXGroup;
+			children = (
+				2A2655361E3F018E00F8DDDF /* Brainfood */,
+				2A26554B1E3F018E00F8DDDF /* BrainfoodTests */,
+				2A2655561E3F018E00F8DDDF /* BrainfoodUITests */,
+				2A2655351E3F018E00F8DDDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A2655351E3F018E00F8DDDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A2655341E3F018E00F8DDDF /* Brainfood.app */,
+				2A2655481E3F018E00F8DDDF /* BrainfoodTests.xctest */,
+				2A2655531E3F018E00F8DDDF /* BrainfoodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A2655361E3F018E00F8DDDF /* Brainfood */ = {
+			isa = PBXGroup;
+			children = (
+				2A2655371E3F018E00F8DDDF /* AppDelegate.swift */,
+				2A2655391E3F018E00F8DDDF /* ViewController.swift */,
+				2A26553B1E3F018E00F8DDDF /* Main.storyboard */,
+				2A26553E1E3F018E00F8DDDF /* Assets.xcassets */,
+				2A2655401E3F018E00F8DDDF /* LaunchScreen.storyboard */,
+				2A2655431E3F018E00F8DDDF /* Info.plist */,
+			);
+			path = Brainfood;
+			sourceTree = "<group>";
+		};
+		2A26554B1E3F018E00F8DDDF /* BrainfoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A26554C1E3F018E00F8DDDF /* BrainfoodTests.swift */,
+				2A26554E1E3F018E00F8DDDF /* Info.plist */,
+			);
+			path = BrainfoodTests;
+			sourceTree = "<group>";
+		};
+		2A2655561E3F018E00F8DDDF /* BrainfoodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A2655571E3F018E00F8DDDF /* BrainfoodUITests.swift */,
+				2A2655591E3F018E00F8DDDF /* Info.plist */,
+			);
+			path = BrainfoodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A2655331E3F018D00F8DDDF /* Brainfood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A26555C1E3F018E00F8DDDF /* Build configuration list for PBXNativeTarget "Brainfood" */;
+			buildPhases = (
+				2A2655301E3F018D00F8DDDF /* Sources */,
+				2A2655311E3F018D00F8DDDF /* Frameworks */,
+				2A2655321E3F018D00F8DDDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brainfood;
+			productName = Brainfood;
+			productReference = 2A2655341E3F018E00F8DDDF /* Brainfood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A2655471E3F018E00F8DDDF /* BrainfoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A26555F1E3F018E00F8DDDF /* Build configuration list for PBXNativeTarget "BrainfoodTests" */;
+			buildPhases = (
+				2A2655441E3F018E00F8DDDF /* Sources */,
+				2A2655451E3F018E00F8DDDF /* Frameworks */,
+				2A2655461E3F018E00F8DDDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A26554A1E3F018E00F8DDDF /* PBXTargetDependency */,
+			);
+			name = BrainfoodTests;
+			productName = BrainfoodTests;
+			productReference = 2A2655481E3F018E00F8DDDF /* BrainfoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A2655521E3F018E00F8DDDF /* BrainfoodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A2655621E3F018E00F8DDDF /* Build configuration list for PBXNativeTarget "BrainfoodUITests" */;
+			buildPhases = (
+				2A26554F1E3F018E00F8DDDF /* Sources */,
+				2A2655501E3F018E00F8DDDF /* Frameworks */,
+				2A2655511E3F018E00F8DDDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A2655551E3F018E00F8DDDF /* PBXTargetDependency */,
+			);
+			name = BrainfoodUITests;
+			productName = BrainfoodUITests;
+			productReference = 2A2655531E3F018E00F8DDDF /* BrainfoodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A26552C1E3F018D00F8DDDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "SwatTech, LLC";
+				TargetAttributes = {
+					2A2655331E3F018D00F8DDDF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5H327CRPJ5;
+						ProvisioningStyle = Automatic;
+					};
+					2A2655471E3F018E00F8DDDF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5H327CRPJ5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2A2655331E3F018D00F8DDDF;
+					};
+					2A2655521E3F018E00F8DDDF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5H327CRPJ5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2A2655331E3F018D00F8DDDF;
+					};
+				};
+			};
+			buildConfigurationList = 2A26552F1E3F018D00F8DDDF /* Build configuration list for PBXProject "Brainfood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A26552B1E3F018D00F8DDDF;
+			productRefGroup = 2A2655351E3F018E00F8DDDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A2655331E3F018D00F8DDDF /* Brainfood */,
+				2A2655471E3F018E00F8DDDF /* BrainfoodTests */,
+				2A2655521E3F018E00F8DDDF /* BrainfoodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A2655321E3F018D00F8DDDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2655421E3F018E00F8DDDF /* LaunchScreen.storyboard in Resources */,
+				2A26553F1E3F018E00F8DDDF /* Assets.xcassets in Resources */,
+				2A26553D1E3F018E00F8DDDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2655461E3F018E00F8DDDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2655511E3F018E00F8DDDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A2655301E3F018D00F8DDDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A26553A1E3F018E00F8DDDF /* ViewController.swift in Sources */,
+				2A2655381E3F018E00F8DDDF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2655441E3F018E00F8DDDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A26554D1E3F018E00F8DDDF /* BrainfoodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A26554F1E3F018E00F8DDDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2655581E3F018E00F8DDDF /* BrainfoodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A26554A1E3F018E00F8DDDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A2655331E3F018D00F8DDDF /* Brainfood */;
+			targetProxy = 2A2655491E3F018E00F8DDDF /* PBXContainerItemProxy */;
+		};
+		2A2655551E3F018E00F8DDDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A2655331E3F018D00F8DDDF /* Brainfood */;
+			targetProxy = 2A2655541E3F018E00F8DDDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A26553B1E3F018E00F8DDDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A26553C1E3F018E00F8DDDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A2655401E3F018E00F8DDDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A2655411E3F018E00F8DDDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A26555A1E3F018E00F8DDDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A26555B1E3F018E00F8DDDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A26555D1E3F018E00F8DDDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5H327CRPJ5;
+				INFOPLIST_FILE = Brainfood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swattechllc.Brainfood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2A26555E1E3F018E00F8DDDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5H327CRPJ5;
+				INFOPLIST_FILE = Brainfood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swattechllc.Brainfood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2A2655601E3F018E00F8DDDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5H327CRPJ5;
+				INFOPLIST_FILE = BrainfoodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swattechllc.BrainfoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brainfood.app/Brainfood";
+			};
+			name = Debug;
+		};
+		2A2655611E3F018E00F8DDDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5H327CRPJ5;
+				INFOPLIST_FILE = BrainfoodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swattechllc.BrainfoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brainfood.app/Brainfood";
+			};
+			name = Release;
+		};
+		2A2655631E3F018E00F8DDDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5H327CRPJ5;
+				INFOPLIST_FILE = BrainfoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swattechllc.BrainfoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Brainfood;
+			};
+			name = Debug;
+		};
+		2A2655641E3F018E00F8DDDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5H327CRPJ5;
+				INFOPLIST_FILE = BrainfoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swattechllc.BrainfoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Brainfood;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A26552F1E3F018D00F8DDDF /* Build configuration list for PBXProject "Brainfood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A26555A1E3F018E00F8DDDF /* Debug */,
+				2A26555B1E3F018E00F8DDDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A26555C1E3F018E00F8DDDF /* Build configuration list for PBXNativeTarget "Brainfood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A26555D1E3F018E00F8DDDF /* Debug */,
+				2A26555E1E3F018E00F8DDDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A26555F1E3F018E00F8DDDF /* Build configuration list for PBXNativeTarget "BrainfoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2655601E3F018E00F8DDDF /* Debug */,
+				2A2655611E3F018E00F8DDDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A2655621E3F018E00F8DDDF /* Build configuration list for PBXNativeTarget "BrainfoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2655631E3F018E00F8DDDF /* Debug */,
+				2A2655641E3F018E00F8DDDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A26552C1E3F018D00F8DDDF /* Project object */;
+}
