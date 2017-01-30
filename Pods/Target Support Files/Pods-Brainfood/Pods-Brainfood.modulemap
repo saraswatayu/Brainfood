@@ -1,0 +1,6 @@
+framework module Pods_Brainfood {
+  umbrella header "Pods-Brainfood-umbrella.h"
+
+  export *
+  module * { export * }
+}

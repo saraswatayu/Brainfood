@@ -1,0 +1,6 @@
+framework module Pods_BrainfoodUITests {
+  umbrella header "Pods-BrainfoodUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
